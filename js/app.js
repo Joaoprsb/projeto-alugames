@@ -6,11 +6,11 @@ function alterarStatus(num) {
   if (fotoJogo.classList.contains("dashboard__item__img--rented")) {
     fotoJogo.classList.remove("dashboard__item__img--rented");
     botaoJogo.classList.remove("dashboard__item__button--return");
-    botaoJogo.innerHTML = "Devolver";
+    botaoJogo.innerHTML = "Alugar";
   } else {
     fotoJogo.classList.add("dashboard__item__img--rented");
     botaoJogo.classList.add("dashboard__item__button--return");
-    botaoJogo.innerHTML = "Alugar";
+    botaoJogo.innerHTML = "Devolver";
   }
 }
 
